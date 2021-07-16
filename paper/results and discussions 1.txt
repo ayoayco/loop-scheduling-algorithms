@@ -1,0 +1,36 @@
+
+\paragraph{}
+The implementations of the loop scheduling algorithms on the DGs using SEPA as a test bed on four modes (\textsf{EQUAL}, \textsf{FRONT-HEAVY}, \textsf{TAIL-HEAVY}, and \textsf{RANDOM}) shows that the scheduling algorithms effectively balances the work load to the DGs and reduces the execution times relative to when SEPA is executed sequentially in a single PC.
+
+\paragraph{}
+Figures 2, 3, 4, and 5 are comparisons of the execution times of each of the implementations.
+
+\begin{figure}[h]
+\begin{center}  
+  \includegraphics[height=45mm]{graphs/equal.jpg}
+  \caption{SEPA on \textsf{EQUAL} mode}
+\end{center}
+\end{figure}
+
+\begin{figure}[h]
+\begin{center}  
+  \includegraphics[height=45mm]{graphs/front.jpg}
+  \caption{SEPA on \textsf{FRONT-HEAVY} mode}
+\end{center}
+\end{figure}
+
+\begin{figure}[h]
+\begin{center}  
+  \includegraphics[height=45mm]{graphs/tail.jpg}
+  \caption{SEPA on \textsf{TAIL-HEAVY} mode}
+\end{center}
+\end{figure}
+
+\begin{figure}[h]
+\begin{center}  
+  \includegraphics[height=45mm]{graphs/random.jpg}
+  \caption{SEPA on \textsf{RANDOM} mode}
+\end{center}
+\end{figure}
+
+\paragraph{}

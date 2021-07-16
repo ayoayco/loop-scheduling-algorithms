@@ -1,0 +1,4 @@
+results and discussions
+
+ - performance metrics and their implications
+ - upgrading dg size
